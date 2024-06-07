@@ -1,0 +1,19 @@
+<div class="container" #element>
+    <div>
+        <h1>{{data.name}}</h1>
+        <h2>{{data.job}}</h2>
+
+        <span class="punchline">{{data.punchline}}</span>
+        <span
+            id="scroll-icon"
+            nz-icon
+            nzType="down-circle"
+            nzTheme="outline"
+            (click)="scrollToNext()"
+            nz-tooltip
+            nzTooltipTitle="Voir la suite"
+            [(nzTooltipVisible)]="isVisibleTooltip"
+            nzTooltipPlacement="top">
+        </span>
+    </div>
+</div>

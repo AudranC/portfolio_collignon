@@ -1,0 +1,16 @@
+Copyright © {{copyright}} {{name}}
+
+<a *ngIf="repository" [href]="repository" target="_blank">
+    <span
+        nz-icon
+        nzType="github"
+        nzTheme="outline"
+        nz-tooltip
+        [nzTooltipTitle]="titleTemplate"
+        [(nzTooltipVisible)]="isVisibleTooltip"
+    ></span>
+    <ng-template #titleTemplate>
+        Voir le repository
+        <span nz-icon nzType="link" nzTheme="outline"></span>
+    </ng-template>    
+</a>

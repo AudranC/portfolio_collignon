@@ -1,0 +1,40 @@
+nz-header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    height: auto;
+
+    .name {
+        color: black;
+        font-family: 'Work Sans', sans-serif;
+        text-transform: uppercase;
+    }
+
+    [nz-menu] {
+        float: right;
+    }
+
+    .header-menu {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .large-screen-menu {
+        display: none;
+    }
+    nz-header {
+        padding: 0 20px;
+    }
+    .small-screen-menu-icon {
+        margin: 0 15px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .small-screen-menu {
+        display: none;
+    }
+}
