@@ -189,7 +189,7 @@
   optionalDependencies:
     parse5 "^5.0.0"
 
-"@angular/cli@~14.2.2":
+"@angular/cli@^14.2.2":
   version "14.2.2"
   resolved "https://registry.npmjs.org/@angular/cli/-/cli-14.2.2.tgz"
   integrity sha512-oRsKFn8grq+mZrirDD2Ea0CFx5+eeb928ltI/B3ML7s3mOpTfhuuF04033TARY/UzcGsX31V2L9kORJXN30Ycw==

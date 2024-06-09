@@ -2,8 +2,8 @@
   "name": "portfolio",
   "version": "0.0.0",
   "author": {
-    "name": "Romain Delorme-Glorieux",
-    "url": "https://github.com/RomainDGx"
+    "name": "Audran COLLIGNON",
+    "url": "https://github.com/AudranC"
   },
   "keywords": [
     "Angular",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.2",
-    "@angular/cli": "~14.2.2",
+    "@angular/cli": "^14.2.2",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
     "@types/luxon": "^3.3.0",
