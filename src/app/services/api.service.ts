@@ -86,6 +86,51 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                 },
             ],
             projects: [
+                {
+                    name: 'Open Street Map Tile Generator',
+                    image: '',
+                    tags: [
+                        'Python',
+                        'QtQML',
+                        'OpenStreetMap',
+                        'Cartographie'
+                    ],
+                    content: `Open Street Map Tile Generator est un logiciel permettant la génération de cartes basées sur des données OpenStreetMap`,
+                    details: `<p>Lors de mon stage chez Thales et en début d'alternance, j'ai pu réaliser le développement d'un outil de cartographie à base de données OpenStreetMap.</p>
+                    <p>Au sein du service Simulation et Dimensionnement, l'utilisation de cartes est fréquente. Elles permettent aux utilisateurs de se repérer sur un plan tactique, 
+                    ou bien d'aider à mettre en place des décors réalistes pour les simulations. Cependant, les outils classiques capables de fournir des cartes
+                    tels que Google Maps, OpenStreetMap ou encore Géoportail ne fournissent pas d'accès pratiques aux cartes affichées dans le navigateur web.
+                    De plus, ces dernières ne possèdent que peu d'options de personnalisations des informations affichées.</p>
+                    
+                    <p>Je n'avais moi-même aucune connaissance sur le sujet des données OpenStreetMap et du langage de programmation 
+                    utilisé pour l'interface. Cependant, j'ai pu passer deux semaines en début de stage pour me familiariser à ce
+                    nouvel environnement à l'aide des ressources en ligne et en mettant en place quelques essais d'interfaces qui me serviront
+                    de base pour la suite du projet.</p>
+                    
+                    <p>L'application finale permet de générer des cartes et de modifier leurs styles en profondeur.
+                     Que ce soit l'affichage des routes, des forêts, des arrêts de bus ou bien des données personnalisées, 
+                     elles sont toutes affichables de différentes manières.<br/>
+                    De plus, j'ai pu y ajouter lors de mon alternance une fonctionnalité de recherche, permettant
+                     de trouver toutes les données présentes dans une zone et les mettre en valeur.</p>
+                    `
+                },
+                {
+                    name: 'Nouvel édtieur de scénario',
+                    image: '',
+                    tags: [
+                        'Python',
+                        'QtQML',
+                        '3D',
+                        'Simulation'
+                    ],
+                    content: `Le Nouvel édtieur de scénario est un logiciel permettant le déplacement d'entités dans un environnement 3D`,
+                    details: `<p>L'éditeur de scénario est un logiciel utilisé pour produire des scénarios dans une simulation.
+                    Les scénarios sont constitués d'entités qui vont effectuer différentes actions au fil du temps tels que se déplacer ou faire des animations.
+                    Le service possède déjà un éditeur de scénario, mais celui-ci est utilisé pour produire des scénarios où toutes les actions sont planifiées à l'avance. 
+                    A l'inverse, ce nouvel éditeur de scénario nous permettra d'avoir des actions déclenchées dynamiquement.
+                    La principale utilisation sera d'avoir un utilisateur contrôlant une entité qui déclenche divers événements dans l'environnement en se déplaçant.</p>
+                    `
+                }
             ],
             about: [
                 {
