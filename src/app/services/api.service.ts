@@ -23,14 +23,21 @@ export class LocalApiService extends ApiService {
                 {
                     type: 'hardSkill',
                     name: 'Architecture logicielle',
-                    synopsis: "Le but premier de l'architecture logicielle est de produire une <b>base de code solide, claire et organisée</b> rendant ainsi nos futurs produits bien plus maintenable et plus <b>stable</b>.",
+                    synopsis: "Le but premier de l'architecture logicielle est de produire une <b>base de code solide, claire et organisée</b> rendant ainsi nos futurs produits bien plus maintenables et plus <b>stables</b>.",
                     detail: `
 <p>Cette compétence s'est pour moi développée au fur et à mesure de mes études et de mes expériences professionnelles. 
 Pouvoir obtenir une architecture fiable est un processus demandant beaucoup de <b>théorie</b> qu'il faudra ensuite allié à la pratique.<br/>
 Afin de produire l'architecture la plus adaptée au produit, il faudra d'abord avoir une bonne vue d'ensemble du sujet grâce aux <b>spécifications des fonctionnalités</b> nécessaires. 
 Il faudra ensuite passer par une <b>étape de réflexion où schématiser les composants</b> et leurs interactions sera utile. 
 Si nécessaire, l'usage de <b>prototype</b> permettra d'étudier les différentes possibilités. 
-Cependant, il faut garder en tête qu'une partie de cette architecture pourra être amenée à évoluer avec de nouvelles demandes de fonctionnalités, d'où la nécessité de bases solides dès la première ébauche du produit.</p>`
+Cependant, il faut garder en tête qu'une partie de cette architecture pourra être amenée à évoluer avec de nouvelles demandes de fonctionnalités, d'où la nécessité de bases solides dès la première ébauche du produit.</p>
+<br/><p>
+Une des architectures logicielles les plus communes aux interfaces hommes machines est l'architecture <b>Modèle-Vue-Contrôleur</b> ou <b>MVC</b>. Comme son nom l'indique, c'est une architecture divisée en trois modules : un Modèle, une Vue et un Contrôleur.<br/> 
+Le rôle du Modèle, aussi appelé <b>logique métier</b>, est de <b>stocker les données</b> utiles au logiciel ainsi que les différentes méthodes et fonctions pour les modifier.<br/>
+De l'autre côté, la Vue est la partie émergée de l'iceberg. Elle représente l'<b>interface</b> et gérera toutes les <b>intéractions</b> directes que pourrait avoir un <b>utilisateur</b> avec le logiciel. Cette interface pourra alors afficher les données du Modèle qui lui auront été transmises par le dernier module.<br/>
+Ce dernier étant le Contrôleur, ayant pour but d'assurer la <b>communication des données</b> du Modèle vers la Vue, et inversement, la <b>communication des interactions</b> reçues dans la Vue afin de modifier le Modèle.<br/> 
+
+</p>`
                 },
                 {
                     type: 'hardSkill',
@@ -55,13 +62,13 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                 {
                     type: 'softSkill',
                     name: 'Compréhension du besoin',
-                    synopsis: "Anticiper les futurs besoins et de les proposer à l'avance",
+                    synopsis: "Anticiper et reformuler les besoins",
                     detail: `
-                    <p>Un des plus grands aspects du travail de développeur est de répondre au besoin exprimé. Cependant, le besoin est souvent assez général et à besoin d'être étayé. Grâce à mes multiples expériences de projets et stages, ma compréhension du besoin me permet d'anticiper les futurs besoins et de les proposer en avance.</p>
+                    <p>Un des plus grands aspects du travail de développeur est de répondre au besoin exprimé. Cependant, le besoin est souvent assez général et a besoin d'être étayé. Grâce à mes multiples expériences de projets et stages, ma compréhension du besoin me permet d'anticiper les futurs besoins et de les proposer en avance.</p>
                     <p><h3>Outil de communication</h3> 
-                    Cette compétence est omni-présente dans le développement d'interfaces logicielles où l'<b>expérience utilisateur</b> est cœur de métier. 
-                    Cela va de paire avec une communication-client régulière afin de récupérer des <b>retours d'expériences</b> tout au long de la phase de développement. 
-                    Ces retours permettront de réajuster les fonctionnalités si les besoins évoluent.<br/>
+                    Cette compétence est omni-présente dans le développement d'interfaces logicielles où l'<b>expérience utilisateur</b> est au cœur de métier. 
+                    Cela va de pair avec une communication-client régulière afin de récupérer des <b>retours d'expériences</b> tout au long de la phase de développement. 
+                    Ces retours permettront de proposer des fonctionnalités si les besoins évoluent.<br/>
                     J'ai pu appliquer et développer cette compétence tout au long de mes diverses expériences professionnelles.</p>`
                 },
                 {
@@ -110,12 +117,12 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                     <p>L'application finale permet de générer des cartes et de modifier leurs styles en profondeur.
                      Que ce soit l'affichage des routes, des forêts, des arrêts de bus ou bien des données personnalisées, 
                      elles sont toutes affichables de différentes manières.<br/>
-                    De plus, j'ai pu y ajouter lors de mon alternance une fonctionnalité de recherche, permettant
+                    De plus, j'ai pu y ajouter, lors de mon alternance, une fonctionnalité de recherche permettant
                      de trouver toutes les données présentes dans une zone et les mettre en valeur.</p>
                     `
                 },
                 {
-                    name: 'Nouvel édtieur de scénario',
+                    name: 'Nouvel éditeur de scénario',
                     image: '',
                     tags: [
                         'Python',
