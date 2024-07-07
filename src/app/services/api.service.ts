@@ -41,13 +41,15 @@ Ce dernier étant le Contrôleur, ayant pour but d'assurer la <b>communication d
                 },
                 {
                     type: 'hardSkill',
-                    name: 'Lorem ipsum',
-                    synopsis: "",
+                    name: 'Développement applicatif et logiciel',
+                    synopsis: "Le développement de logiciel consiste à étudier, concevoir, construire, transformer, mettre au point, maintenir et améliorer des logiciels.",
                     detail: `
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>`
+<p>Grâce à mon BTS SIO et mon cursus à l'ESIEA, j'ai eu l'occasion de réaliser divers stages et projets. 
+Ils m'ont d'abord tous amenés à développer, ou participer au développement, de <b>logiciels ou d'applications</b>, aussi appelés <b>Interface Homme Machine</b> ou <b>IHM</b>. 
+Le principal aspect technique de ces IHM est la prise en compte des actions de l'utilisateur à travers une interface qui se devra d'être lisible et accessible.</p>
+<br/><p>La mise en place d'IHM demandent de <b>multiples compétences</b> allant des compétences classiques de développeur tel que la <b>création d'algorithmes</b> et la maîtrise des différents langages qui seront utilisés, à des compétences demandant plus de créativités et de <b>compétences transverses</b> telles que la compréhension des besoins des clients, l'expérience utilisateur ou un côté artistique.</p>
+<br/><p>Mon expérience lors de mes projets en entreprise, où le besoin client est réel et est amené à évoluer, m'ont réaffirmer l'importance de <b>communiquer</b> régulièrement avec les clients afin de s'assurer que le projet garde la bonne direction. 
+Ensuite, il est aussi nécessaire de récupérer des seconds avis dans une démarche itérative afin de rendre les <b>intéractions utilisateurs</b> les plus fluides et agréables possibles.</p>`
                 },
                 {
                     type: 'hardSkill',
