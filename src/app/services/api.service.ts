@@ -53,13 +53,19 @@ Ensuite, il est aussi nécessaire de récupérer des seconds avis dans une déma
                 },
                 {
                     type: 'hardSkill',
-                    name: 'Lorem ipsum',
-                    synopsis: "",
+                    name: 'Expérience utilisateur',
+                    synopsis: "Qualité du vécu de l'utilisateur dans des environnements numériques ou physiques.",
                     detail: `
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>`
+<p>L'expérience utilisateur, ou <b>User Experience</b> (<b>UX</b>) en anglais, est un concept regroupant de multiples domaines ayant pour but de qualifier le <b>ressenti</b> d'un utilisateur lors de la participation à toute activité, aussi bien physique que numérique. Bien que l'expérience utilisateur soit applicable à de nombreuses situations, nous allons plutôt nous focaliser sur son application dans le cadre des applications, logiciels et sites webs.
+<p></p>
+L'expérience d'un utilisateur se doit de respecter les différents paramètres du futur produit. Par exemple, les <b>contraintes d'ergonomie</b> ne sont souvent pas les mêmes lors de la production d'une application pour un réseau social grand public (Facebook, Instagram, YouTube) comparé à un logiciel de calculs ou de 3D pour ingénieurs (MATLAB, SOLIDWORKS). Cela ne veut pas dire pour autant dire que nous pouvons nous permettre de produire des interfaces cryptiques et répulsives par prétexte que l'utilisateur aurait un profil plus technique. Un des axes principaux de l'UX est de prendre en compte le ressenti utilisateur et de s'assurer que les fonctionnalités principales soient <b>accessibles</b> et <b>compréhensibles</b>, ce qu'on appelle aussi l'<b>ergonomie logicielle</b>.
+<p></p>
+Afin de comprendre l'utilisateur lors du développement, il est nécessaire de prendre du recul, de réessayer des <b>scénarios d'utilisations</b> classiques par un utilisateur. En prenant un point de vue différent et en faisant abstraction de nos habitudes, nous pouvons alors nous rendre compte des points négatifs de l'utilisation de notre produit.
+<p></p>
+	
+	La compréhension de l'expérience utilisateur est une compétence que j'ai pu développer au quotidien au fur et à mesure de mes expériences. Je me pose des questions dès la planification d'une nouvelle fonctionnalité telles que “Comment la rendre intuitive ?” ou “Est-ce que cette fonctionnalité secondaire serait un plus pour celle-ci ?”. Je refais aussi régulièrement des <b>tests de cas d'utilisations</b> en prenant du recul et demande, si possible, au client ou à des collègues de <b>tester</b> mes produits afin de récupérer leurs <b>retours</b> et <b>améliorer</b> le produit pour le mieux.
+</p>
+`
                 },
                 {
                     type: 'softSkill',
@@ -67,7 +73,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                     synopsis: "Anticiper et reformuler les besoins",
                     detail: `
                     <p>Un des plus grands aspects du travail de développeur est de répondre au besoin exprimé. Cependant, le besoin est souvent assez général et a besoin d'être étayé. Grâce à mes multiples expériences de projets et stages, ma compréhension du besoin me permet d'anticiper les futurs besoins et de les proposer en avance.</p>
-                    <p><h3>Outil de communication</h3> 
+                    <p>
                     Cette compétence est omni-présente dans le développement d'interfaces logicielles où l'<b>expérience utilisateur</b> est au cœur de métier. 
                     Cela va de pair avec une communication-client régulière afin de récupérer des <b>retours d'expériences</b> tout au long de la phase de développement. 
                     Ces retours permettront de proposer des fonctionnalités si les besoins évoluent.<br/>
@@ -75,23 +81,32 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                 },
                 {
                     type: 'softSkill',
-                    name: 'Lorem ipsum',
-                    synopsis: "",
+                    name: 'Communication',
+                    synopsis: "Partager, présenter, recevoir",
                     detail: `
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>`
+    
+	<p>Au fur et à mesure des années, les <b>responsabilités</b> d'un développeur évoluent, j'ai déjà pu le constater que les attentes d'un stagiaire présent pour quelques mois ne sont pas les mêmes qu'un ingénieur. Outre les compétences techniques inaliénables au métier, les compétences en communication des développeurs jouent de plus en plus dans la balance dû aux nécessités de satisfaire les clients avec un produit de qualité et la nécessité de <b>communiquer avec son équipe</b> afin d'éviter les quiproquos.
+</p>
+<p>
+	Les compétences en communication sont nombreuses et diverses, mais voici pour moi les plus importantes dans mon métier : la communication verbale avec la <b>vulgarisation</b>, la<b> capacité empathique</b>, l'intégration des retours et la compréhension du besoin à travers <b>l'écoute</b> active que je détaille dans un autre article.
+<p>
+</p>	
+	L'empathie est un mot chargé est une compétence assez difficile à présenter dans un contexte professionnel dû à sa présence dans chaque aspect d'une discussion en demi-teinte. Cependant, je la résumerai en une capacité à <b>comprendre et ressentir </b>l'état actuel de mes interlocuteurs. Ce qui m'amène ensuite à mieux <b>analyser leurs attentes</b> et pouvoir les mettre en œuvre d'une façon qui leur correspond.
+</p>
+<p>
+La communication verbale est en soit très large, mais l'aspect qui me démarque est ma <b>démarche naturellement didactique</b>. En effet, je commence le plus souvent par redonner le contexte de la discussion en mettant au clair quels sont les attendus et communiquer les informations nécessaires à la résolution du problème. Cela passe souvent par ma capacité à <b>résumer et vulgariser</b> mon travail. J'ai souvent été amené à présenter mon travail ou demander des conseils auprès de personnes n'ayant que peu, voire aucune, connaissance de mon projet actuel ou même de mon métier.</p>
+`
                 },
                 {
                     type: 'softSkill',
-                    name: 'Lorem ipsum',
-                    synopsis: "",
+                    name: 'Adaptabilité',
+                    synopsis: "S'informer, évoluer, s'adapter",
                     detail: `
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>`
+<p>	Le monde professionnel de l'informatique est un espace où le <b>changement est constant</b>, les métiers évoluent vite, les techniques sont mises à jour fréquemment et les besoins des entreprises évoluent sans cesse. C'est là qu'entre en jeu une compétence nécessaire pour continuer à travailler dans ce milieu :  <b>l'adaptabilité</b>. Un développeur incapable de se tenir informer et de se former aux derières avancés dans le domaine étudier sera contre-productif pour une équipe. L'adaptabilité va se manifester de différentes manières. Ses principales formes dans le monde de l'informatique vont être autour de la capacité à <b> faire évoluer son avis</b> sur différents sujets, à  <b>se mettre à jour</b> sur les techniques du métiers et  <b>s'adapter à des contraintes</b> organisationnelles.
+	</p><p>
+	Dans mon parcours professionnel, j'ai déjà pu maintes fois mettre cette compétence à l'épreuve :<br/>Un des premiers exemples est de devoir s'adapter aux contraintes technologiques des projets. Lors de mes projets en école, les langages de programmations étaient souvent différents, d'un autre côté lors de mes stages ou alternance les langages utilisés étaient encore différents de ceux les plus étudiés à l'école, ce qui m'a demandé de me  <b>former </b> avec les différentes sources disponibles. <br/>
+	Un autre exemple se situe dans les retours clients ou de l'équipe. J'ai déjà pu prendre en compte des avis allant à l'encontre de ma vision du futur d'un logiciel et de ce qui était prévu dans le cahier des charges. Ces avis ont demandé de grosses restructurations des fonctionnements actuels et ont donc demandé beaucoup d'effort à mettre en place.</p>
+`
                 },
             ],
             projects: [
@@ -138,6 +153,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                     Le service possède déjà un éditeur de scénario, mais celui-ci est utilisé pour produire des scénarios où toutes les actions sont planifiées à l'avance. 
                     A l'inverse, ce nouvel éditeur de scénario nous permettra d'avoir des actions déclenchées dynamiquement.
                     La principale utilisation sera d'avoir un utilisateur contrôlant une entité qui déclenche divers événements dans l'environnement en se déplaçant.</p>
+                    <p>Les scénarios évoluant dans un environnement en 3D, il m'a fallu revoir mes connaissances de production logiciel qui été habituellement en 2D.
+                     J'ai pu m'inspirer de différents logiciels d'édition tel que Blender ou Unity pour pouvoir mettre en place une meilleure interface et de meilleurs contrôles.</p>
                     `
                 }
             ],
