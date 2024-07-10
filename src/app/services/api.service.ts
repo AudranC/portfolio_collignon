@@ -26,7 +26,7 @@ export class LocalApiService extends ApiService {
                     synopsis: "Le but premier de l'architecture logicielle est de produire une <b>base de code solide, claire et organisée</b> rendant ainsi nos futurs produits bien plus maintenables et plus <b>stables</b>.",
                     detail: `
 <p>Cette compétence s'est pour moi développée au fur et à mesure de mes études et de mes expériences professionnelles. 
-Pouvoir obtenir une architecture fiable est un processus demandant beaucoup de <b>théorie</b> qu'il faudra ensuite allié à la pratique.<br/>
+Pouvoir obtenir une architecture fiable est un processus demandant beaucoup de <b>théorie</b> qu'il faudra ensuite allier à la pratique.<br/>
 Afin de produire l'architecture la plus adaptée au produit, il faudra d'abord avoir une bonne vue d'ensemble du sujet grâce aux <b>spécifications des fonctionnalités</b> nécessaires. 
 Il faudra ensuite passer par une <b>étape de réflexion où schématiser les composants</b> et leurs interactions sera utile. 
 Si nécessaire, l'usage de <b>prototype</b> permettra d'étudier les différentes possibilités. 
@@ -37,7 +37,14 @@ Le rôle du Modèle, aussi appelé <b>logique métier</b>, est de <b>stocker les
 De l'autre côté, la Vue est la partie émergée de l'iceberg. Elle représente l'<b>interface</b> et gérera toutes les <b>intéractions</b> directes que pourrait avoir un <b>utilisateur</b> avec le logiciel. Cette interface pourra alors afficher les données du Modèle qui lui auront été transmises par le dernier module.<br/>
 Ce dernier étant le Contrôleur, ayant pour but d'assurer la <b>communication des données</b> du Modèle vers la Vue, et inversement, la <b>communication des interactions</b> reçues dans la Vue afin de modifier le Modèle.<br/> 
 
-</p>`
+</p>
+<p>Cependant, toutes les IHM ne respectent pas ce modèle et peuvent se voir complexifier dû aux différentes contraintes du produit.
+ Dans le cadre du développement du Nouvel éditeur de scénario, l'interface est décorrélée du scénario en lui-même.
+  En effet, les algorithmes du scénario peuvent tourner dans une simulation sans avoir besoin de l'éditeur en lui-même.
+   Nous travaillons donc avec une surcouche serveur du côté de la simulation pouvant recevoir différentes informations de l'interface tels qu'une demande de déplacement d'une entité ou de la caméra.
+    L'architecture de l'interface quant à elle va intégrer un client lié au contrôleur permettant l'envoie de ces informations.
+</p>
+`
                 },
                 {
                     type: 'hardSkill',
@@ -47,9 +54,14 @@ Ce dernier étant le Contrôleur, ayant pour but d'assurer la <b>communication d
 <p>Grâce à mon BTS SIO et mon cursus à l'ESIEA, j'ai eu l'occasion de réaliser divers stages et projets. 
 Ils m'ont d'abord tous amenés à développer, ou participer au développement, de <b>logiciels ou d'applications</b>, aussi appelés <b>Interface Homme Machine</b> ou <b>IHM</b>. 
 Le principal aspect technique de ces IHM est la prise en compte des actions de l'utilisateur à travers une interface qui se devra d'être lisible et accessible.</p>
-<br/><p>La mise en place d'IHM demandent de <b>multiples compétences</b> allant des compétences classiques de développeur tel que la <b>création d'algorithmes</b> et la maîtrise des différents langages qui seront utilisés, à des compétences demandant plus de créativités et de <b>compétences transverses</b> telles que la compréhension des besoins des clients, l'expérience utilisateur ou un côté artistique.</p>
-<br/><p>Mon expérience lors de mes projets en entreprise, où le besoin client est réel et est amené à évoluer, m'ont réaffirmer l'importance de <b>communiquer</b> régulièrement avec les clients afin de s'assurer que le projet garde la bonne direction. 
-Ensuite, il est aussi nécessaire de récupérer des seconds avis dans une démarche itérative afin de rendre les <b>intéractions utilisateurs</b> les plus fluides et agréables possibles.</p>`
+<br/><p>La mise en place d'IHM demande de <b>multiples compétences</b> allant des compétences classiques de développeur tel que la <b>création d'algorithmes</b> et la maîtrise des différents langages qui seront utilisés, à des compétences demandant plus de créativité et de <b>compétences transverses</b> telles que la compréhension des besoins des clients, l'expérience utilisateur ou un côté artistique.</p>
+<br/><p>Mon expérience lors de mes projets en entreprise, où le besoin client est réel et est amené à évoluer, m'ont permis de réaffirmer l'importance de <b>communiquer</b> régulièrement avec les clients afin de s'assurer que le projet garde la bonne direction. 
+Ensuite, il est aussi nécessaire de récupérer des seconds avis dans une démarche itérative afin de rendre les <b>intéractions utilisateurs</b> les plus fluides et agréables possibles.</p>
+<p>Lors de la création d'un logiciel, j'ai appris à mettre en place une <b>démarche </b>pour arriver à une <b>base solide</b>; démarche que j'ai pu appliquer lors du développement d'Open Street Map Tile Generator. 
+<br/>D'abord, la division des fonctionnalités principales et secondaires par ordre d'importance. Ensuite, mettre au point une <b>maquette</b> générale par rapport aux besoins exprimés. Puis décidé d'une <b>architecture logicielle</b>, qui sera la plupart du temps un modèle MVC (cf. article architecture logicielle).
+<br/>Une fois ces points éclaircis, le développement peut commencer vers un premier prototype incluant les fonctionnalités les plus prioritaires.
+</p>
+`
                 },
                 {
                     type: 'hardSkill',
@@ -58,7 +70,7 @@ Ensuite, il est aussi nécessaire de récupérer des seconds avis dans une déma
                     detail: `
 <p>L'expérience utilisateur, ou <b>User Experience</b> (<b>UX</b>) en anglais, est un concept regroupant de multiples domaines ayant pour but de qualifier le <b>ressenti</b> d'un utilisateur lors de la participation à toute activité, aussi bien physique que numérique. Bien que l'expérience utilisateur soit applicable à de nombreuses situations, nous allons plutôt nous focaliser sur son application dans le cadre des applications, logiciels et sites webs.
 <p></p>
-L'expérience d'un utilisateur se doit de respecter les différents paramètres du futur produit. Par exemple, les <b>contraintes d'ergonomie</b> ne sont souvent pas les mêmes lors de la production d'une application pour un réseau social grand public (Facebook, Instagram, YouTube) comparé à un logiciel de calculs ou de 3D pour ingénieurs (MATLAB, SOLIDWORKS). Cela ne veut pas dire pour autant dire que nous pouvons nous permettre de produire des interfaces cryptiques et répulsives par prétexte que l'utilisateur aurait un profil plus technique. Un des axes principaux de l'UX est de prendre en compte le ressenti utilisateur et de s'assurer que les fonctionnalités principales soient <b>accessibles</b> et <b>compréhensibles</b>, ce qu'on appelle aussi l'<b>ergonomie logicielle</b>.
+L'expérience d'un utilisateur se doit de respecter les différents paramètres du futur produit. Par exemple, les <b>contraintes d'ergonomie</b> ne sont souvent pas les mêmes lors de la production d'une application pour un réseau social grand public (Facebook, Instagram, YouTube) comparé à un logiciel de calculs ou de 3D pour ingénieurs (MATLAB, SOLIDWORKS). Cela ne veut pas dire pour autant dire que nous pouvons nous permettre de produire des interfaces cryptiques et répulsives sous le prétexte que l'utilisateur aurait un profil plus technique. Un des axes principaux de l'UX est de prendre en compte le ressenti utilisateur et de s'assurer que les fonctionnalités principales soient <b>accessibles</b> et <b>compréhensibles</b>, ce qu'on appelle aussi l'<b>ergonomie logicielle</b>.
 <p></p>
 Afin de comprendre l'utilisateur lors du développement, il est nécessaire de prendre du recul, de réessayer des <b>scénarios d'utilisations</b> classiques par un utilisateur. En prenant un point de vue différent et en faisant abstraction de nos habitudes, nous pouvons alors nous rendre compte des points négatifs de l'utilisation de notre produit.
 <p></p>
@@ -85,16 +97,23 @@ Afin de comprendre l'utilisateur lors du développement, il est nécessaire de p
                     synopsis: "Partager, présenter, recevoir",
                     detail: `
     
-	<p>Au fur et à mesure des années, les <b>responsabilités</b> d'un développeur évoluent, j'ai déjà pu le constater que les attentes d'un stagiaire présent pour quelques mois ne sont pas les mêmes qu'un ingénieur. Outre les compétences techniques inaliénables au métier, les compétences en communication des développeurs jouent de plus en plus dans la balance dû aux nécessités de satisfaire les clients avec un produit de qualité et la nécessité de <b>communiquer avec son équipe</b> afin d'éviter les quiproquos.
+	<p>Au fur et à mesure des années, les <b>responsabilités</b> d'un développeur évoluent, j'ai déjà pu constater que les attentes d'un stagiaire présent pour quelques mois ne sont pas les mêmes qu'un ingénieur. Outre les compétences techniques inaliénables au métier, les compétences en communication des développeurs jouent de plus en plus dans la balance dû aux nécessités de satisfaire les clients avec un produit de qualité et la nécessité de <b>communiquer avec son équipe</b> afin d'éviter les quiproquos.
 </p>
 <p>
-	Les compétences en communication sont nombreuses et diverses, mais voici pour moi les plus importantes dans mon métier : la communication verbale avec la <b>vulgarisation</b>, la<b> capacité empathique</b>, l'intégration des retours et la compréhension du besoin à travers <b>l'écoute</b> active que je détaille dans un autre article.
+	Les compétences en communication sont nombreuses et diverses, mais voici pour moi les plus importantes dans mon métier : la communication verbale avec la <b>vulgarisation</b>, la<b> capacité empathique</b>, l'intégration des retours et la compréhension du besoin à travers <b>l'écoute</b> active.
 <p>
 </p>	
-	L'empathie est un mot chargé est une compétence assez difficile à présenter dans un contexte professionnel dû à sa présence dans chaque aspect d'une discussion en demi-teinte. Cependant, je la résumerai en une capacité à <b>comprendre et ressentir </b>l'état actuel de mes interlocuteurs. Ce qui m'amène ensuite à mieux <b>analyser leurs attentes</b> et pouvoir les mettre en œuvre d'une façon qui leur correspond.
+	L'empathie est un mot chargé et est une compétence assez difficile à présenter dans un contexte professionnel dû à sa présence dans chaque aspect d'une discussion en arrière-plan. Cependant, je la résumerai en une capacité à <b>comprendre et ressentir </b>l'état actuel de mes interlocuteurs. 
+    Ce qui m'amène ensuite à mieux <b>analyser leurs attentes</b> et pouvoir les mettre en œuvre d'une façon qui leur correspond.<br/>
+    Par exemple, je me suis déjà heurté à la situation où un client n'osait pas donner un avis négatif sur l'implémentation d'une fonctionnalité. 
+    Après l'avoir remarqué, j'ai pu comprendre sa situation et lui proposer une implémentation alternative à celle actuelle.
 </p>
 <p>
-La communication verbale est en soit très large, mais l'aspect qui me démarque est ma <b>démarche naturellement didactique</b>. En effet, je commence le plus souvent par redonner le contexte de la discussion en mettant au clair quels sont les attendus et communiquer les informations nécessaires à la résolution du problème. Cela passe souvent par ma capacité à <b>résumer et vulgariser</b> mon travail. J'ai souvent été amené à présenter mon travail ou demander des conseils auprès de personnes n'ayant que peu, voire aucune, connaissance de mon projet actuel ou même de mon métier.</p>
+La communication verbale est en soit très large, mais l'aspect qui me démarque est ma <b>démarche naturellement didactique</b>. 
+En effet, je commence le plus souvent par redonner le contexte de la discussion en mettant au clair quels sont les attendus et communiquer les informations nécessaires à la résolution du problème. 
+Cela passe souvent par ma capacité à <b>résumer et vulgariser</b> mon travail. 
+J'ai souvent été amené à présenter mon travail ou demander des conseils auprès de personnes n'ayant que peu, voire aucune, connaissance de mon projet actuel ou même de mon métier.</p>
+<p>	En résumé, l'utilisation de mes compétences en communication me permet une meilleure compréhension des clients, de leurs besoins, et donc permet de produire des produits de meilleure qualité.</p>
 `
                 },
                 {
@@ -102,10 +121,10 @@ La communication verbale est en soit très large, mais l'aspect qui me démarque
                     name: 'Adaptabilité',
                     synopsis: "S'informer, évoluer, s'adapter",
                     detail: `
-<p>	Le monde professionnel de l'informatique est un espace où le <b>changement est constant</b>, les métiers évoluent vite, les techniques sont mises à jour fréquemment et les besoins des entreprises évoluent sans cesse. C'est là qu'entre en jeu une compétence nécessaire pour continuer à travailler dans ce milieu :  <b>l'adaptabilité</b>. Un développeur incapable de se tenir informer et de se former aux derières avancés dans le domaine étudier sera contre-productif pour une équipe. L'adaptabilité va se manifester de différentes manières. Ses principales formes dans le monde de l'informatique vont être autour de la capacité à <b> faire évoluer son avis</b> sur différents sujets, à  <b>se mettre à jour</b> sur les techniques du métiers et  <b>s'adapter à des contraintes</b> organisationnelles.
+<p>	Le monde professionnel de l'informatique est un espace où le <b>changement est constant</b>, les métiers évoluent vite, les techniques sont mises à jour fréquemment et les besoins des entreprises évoluent sans cesse. C'est là qu'entre en jeu une compétence nécessaire pour continuer à travailler dans ce milieu :  <b>l'adaptabilité</b>. Un développeur incapable de se tenir informer et de se former aux dernières avancées dans le domaine étudier sera contre-productif pour une équipe. L'adaptabilité va se manifester de différentes manières. Ses principales formes dans le monde de l'informatique vont être autour de la capacité à <b> faire évoluer son avis</b> sur différents sujets, à  <b>se mettre à jour</b> sur les techniques du métiers et  <b>s'adapter à des contraintes</b> organisationnelles.
 	</p><p>
-	Dans mon parcours professionnel, j'ai déjà pu maintes fois mettre cette compétence à l'épreuve :<br/>Un des premiers exemples est de devoir s'adapter aux contraintes technologiques des projets. Lors de mes projets en école, les langages de programmations étaient souvent différents, d'un autre côté lors de mes stages ou alternance les langages utilisés étaient encore différents de ceux les plus étudiés à l'école, ce qui m'a demandé de me  <b>former </b> avec les différentes sources disponibles. <br/>
-	Un autre exemple se situe dans les retours clients ou de l'équipe. J'ai déjà pu prendre en compte des avis allant à l'encontre de ma vision du futur d'un logiciel et de ce qui était prévu dans le cahier des charges. Ces avis ont demandé de grosses restructurations des fonctionnements actuels et ont donc demandé beaucoup d'effort à mettre en place.</p>
+	Dans mon parcours professionnel, j'ai déjà pu maintes fois mettre cette compétence à l'épreuve :<br/>Un des premiers exemples est de devoir s'adapter aux contraintes technologiques des projets. Lors de mes projets en école, les langages de programmations étaient souvent différents. D'un autre côté lors de mes stages ou alternance les langages utilisés étaient encore différents de ceux les plus étudié à l'école, ce qui m'a demandé de me  <b>former </b> avec les différentes sources disponibles. <br/>
+	Un autre exemple se situe dans les retours clients ou de l'équipe. J'ai déjà pu prendre en compte des avis allant à l'encontre de ma vision du futur d'un logiciel et de ce qui était prévu dans le cahier des charges. Ces avis ont demandé de grosses restructurations des fonctionnements en cours et ont donc demandé beaucoup d'effort pour les mettre en place.</p>
 `
                 },
             ],
@@ -155,6 +174,32 @@ La communication verbale est en soit très large, mais l'aspect qui me démarque
                     La principale utilisation sera d'avoir un utilisateur contrôlant une entité qui déclenche divers événements dans l'environnement en se déplaçant.</p>
                     <p>Les scénarios évoluant dans un environnement en 3D, il m'a fallu revoir mes connaissances de production logiciel qui été habituellement en 2D.
                      J'ai pu m'inspirer de différents logiciels d'édition tel que Blender ou Unity pour pouvoir mettre en place une meilleure interface et de meilleurs contrôles.</p>
+                    `
+                },
+                {
+                    name: 'Bot de discussion discord',
+                    image: '',
+                    tags: [
+                        'JavaScript',
+                        'Discord',
+                        'discord.js',
+                        'Chatbot'
+                    ],
+                    content: `Un bot utilitaire aux discussions`,
+                    details: `
+                    <p>Mes amis et moi possédons un serveur discord permettant à travers différents salons de discuter aussi bien à l'écrit qu'à l'oral. De nombreux serveurs intègrent des bots afin d'interagir avec la communauté et nous nous demandions avec nos amis qu'est-ce que nous pourrions faire en avoir un personnalisé. J'ai donc pris cette responsabilité car je n'avais encore jamais implémenté une application de ce genre.
+                    </p><p>
+                        Le bot portant le nom de Bot Jean-Michel avait pour but d'avoir quelques fonctionnalités utiles au jour le jour comme des calculs simples, des choix aléatoires entre plusieurs propositions ou encore de partager des phrases pré-enregistrées.
+                        <br/>La mise en place d'un bot de discussion inclut aussi qu'il soit disponible en permanence, mais ne disposant que de peu de fonds il a fallu trouver une solution pour l'héberger à faible coût. 
+                        </p><p>
+                        Après quelques recherches sur les différentes méthodes de création, je me suis décidé sur Discord.js : une librairie permettant le développement de bots en JavaScript. Du côté hébergement, j'ai opté pour un nano-ordinateur de type Rapsberry Pi que je pourrai garder connectée à mon réseau. La population du discord étant d'une dizaine de personnes, la carte électronique ne devrait pas avoir de problème à supporter la charge.
+                    <p></p>
+                        Grâce à des tutoriels en ligne, le développement des premières fonctionnalités à pu être réalisé rapidement, permettant ainsi de tirer un nombre aléatoire et d'envoyer des phrases pré-enregistrées. L'hébergement permanent à cependant demander plus de temps avec l'installation de l'environnement de la Rapsberry Pi dû à mon manque de connaissances sur les distributions Linux.
+                        <br/>Une fois le problème de l'hébergement réglé, j'ai pu reprendre le développement et ajouter les fonctionnalités manquantes puis rajouter des petits jeux au fur et à mesure permettant d'obtenir une monnaie virtuelle qui peut ensuite être utilisée pour faire des paris.
+                    </p><p>
+                        Aujourd'hui, je garde un avis mitigé sur ce projet. Le bot est au final très peu utilisé car la plupart des personnes n'y voit pas forcément de valeur ajoutée. D'un autre côté, il m'aura quand même permis de développer ma compréhension de ce type d'application, le fonctionnement des nano-ordinateurs et des méthodes d'hébergement sur serveur linux.
+                    </p>
+                    
                     `
                 }
             ],
