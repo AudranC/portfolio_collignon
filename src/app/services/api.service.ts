@@ -167,13 +167,19 @@ J'ai souvent été amené à présenter mon travail ou demander des conseils aup
                         'Simulation'
                     ],
                     content: `Le Nouvel édtieur de scénario est un logiciel permettant le déplacement d'entités dans un environnement 3D`,
-                    details: `<p>L'éditeur de scénario est un logiciel utilisé pour produire des scénarios dans une simulation.
-                    Les scénarios sont constitués d'entités qui vont effectuer différentes actions au fil du temps tels que se déplacer ou faire des animations.
-                    Le service possède déjà un éditeur de scénario, mais celui-ci est utilisé pour produire des scénarios où toutes les actions sont planifiées à l'avance. 
-                    A l'inverse, ce nouvel éditeur de scénario nous permettra d'avoir des actions déclenchées dynamiquement.
-                    La principale utilisation sera d'avoir un utilisateur contrôlant une entité qui déclenche divers événements dans l'environnement en se déplaçant.</p>
-                    <p>Les scénarios évoluant dans un environnement en 3D, il m'a fallu revoir mes connaissances de production logiciel qui été habituellement en 2D.
-                     J'ai pu m'inspirer de différents logiciels d'édition tel que Blender ou Unity pour pouvoir mettre en place une meilleure interface et de meilleurs contrôles.</p>
+                    details: `<p>
+                    Lors de mon apprentissage à Thales, j'ai été amené à travailler sur le Nouvel éditeur de scénario. Le développement de ce logiciel avait déjà été commencé précédemment par un stagiaire avant mon arrivée. Ce qui m'a permis de ne pas avoir à mettre en place toutes les briques logicielles de base.<br/>
+                    Le service possède un simulateur 3D permettant de faire vivre diverses entités dans un espace. Il possède aussi un directeur de scénario permettant de jouer des scénarios, c'est-à-dire faire se déplacer et agir des entités lorsque certains triggers (déclencheurs) sont activés; ainsi qu'un éditeur de scénario permettant de modifier ce dernier. Cependant, ces scénarios ne sont pas réactifs et se jouent toujours de la même façon.
+                    </p><p>
+                    Le service souhaite désormais avoir accès à des scénarios pouvant avoir des changements au cours du scénario. Par exemple, un utilisateur prend le contrôle d'une entité et sera amené à déclencher différents triggers qui affectent le déroulement des scénarios lancés.<br/>
+                    Le but du développement du Nouvel éditeur de scénario est à la fois de proposer un directeur de scénario capable de diriger des scénarios dit “événementiels” et de produire une interface pour créer ces scénarios.<br/>
+                        Mon apprentissage n'a pas pour but de fournir un produit fini mais de l'avancer le plus possible en ajoutant toutes les fonctionnalités nécessaires à une utilisation de base et plus si possible.
+                    </p><p>
+                        Aujourd'hui, le Nouvel éditeur de scénario est opérationnel et présente de nombreuses fonctionnalités secondaires que j'ai pu mettre en place afin de rendre l'expérience utilisateur la plus fluide et agréable telles que le ctrl Z, des gizmos permettant de repérer les unités ou la prévisualisation des entités. Malgré cela, et finalement comme prévu depuis le début, de nombreuses fonctionnalités peuvent encore être ajoutées.<br/>
+                        Lors de ce projet j'ai pu me rendre compte, une fois de plus, de l'importance de la communication et des retours réguliers. Je pense ne pas avoir fait assez de demande de retours sur les premiers mois qui m'ont amené à parfois partir sur de mauvaises pistes ou même me retrouver à créer des briques logicielles complexes que le service possédait déjà. <br/>Un de mes grands regrets est d'avoir mis en place des affichages en 2D pour des trajectoires qui donnent une approximation souvent trompeuse des perspectives. Cet affichage était cependant demandé par le service pour pouvoir juger de la nécessité d'afficher les trajectoires en 3D qui demanderait un temps de développement beaucoup plus long. Cela a été un compromis pour que je puisse ajouter plus de fonctionnalités, mais je resterai grandement insatisfait de cette partie.<br/>
+                    D'un autre côté, je suis quand même heureux de constater l'énorme différence en nombre de fonctionnalités disponibles et en termes d'amélioration de l'expérience utilisateur par rapport à ma première prise en main de cet éditeur.
+                    </p>
+
                     `
                 },
                 {
